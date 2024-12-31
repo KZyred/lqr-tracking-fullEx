@@ -24,6 +24,7 @@ catkin build -DCMAKE_BUILD_TYPE=Release
 2. Run MAVROS with
 
 ```
+source .../devel/setup.bash
 roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
 ```
 
@@ -51,7 +52,3 @@ commander mode offboard
 -   https://github.com/llanesc/lqr-tracking
 -   Foehn, Philipp & Scaramuzza, Davide. (2018). Onboard State Dependent LQR for Agile Quadrotors. [10.1109/ICRA.2018.8460885](https://doi.org/10.1109/ICRA.2018.8460885).
 -   [1] ethz-adrl / control-toolbox [Installation](https://github.com/ethz-adrl/control-toolbox/wiki/Quickstart)
-
-```
-
-```
