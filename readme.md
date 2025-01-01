@@ -3,6 +3,8 @@
 -   Ubuntu 18.04
 -   ROS Melodic
 -   ethz-adrl / control-toolbox [1]
+-   VScode 1.85.2
+-   PX4 14.4 (git clone --branch v1.14.4 https://github.com/PX4/PX4-Autopilot.git --recursive)
 
 ## Commands
 
